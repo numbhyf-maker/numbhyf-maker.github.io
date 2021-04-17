@@ -1,19 +1,37 @@
-# Site settings
-name: 何逸烽
-location: 深圳
-company: IBM
-position: Java开发工程师
-github: https://github.com/
-facebook: https://www.facebook.com/
-phone: 13422859398
-email: numbhyf@163.com
+sass:
+  style: compressed
 
-baseurl: "/resume.io"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
 
-permalink: /:year/:month/:day/:title/
+title: Minimalism
+name: minimalism
+description: Minimalism is a jekyll theme for minimalist
+remote_theme: numbhyf-maker
 
-exclude: ['README.md']
+github: https://github.com/showzeng/Minimalism
+rss: true
 
-# Build settings
-markdown: kramdown
+plugins:
+  - rouge
+  - kramdown
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
 
+exclude:
+  - script
+  - docs
+  - vendor
+  - Gemfile
+  - Gemfile.lock
