@@ -14,12 +14,12 @@ defaults:
     values:
       image: true
 
-title: Minimalism
-name: minimalism
-description: Minimalism is a jekyll theme for minimalist
+title: HeYiFeng
+name: 何逸烽
+description: 何逸烽的博客
 remote_theme: numbhyf-maker
 
-github: https://github.com/showzeng/Minimalism
+github: https://github.com/
 rss: true
 
 plugins:
